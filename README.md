@@ -90,15 +90,15 @@ Step4: Deploy the code-engine plugin in the terminal with the following command
 1. ibmcloud plugin install code-engine
 
 Step5: To create the nodejs function in code engine
-    For nodejs
-        1. ibmcloud ce fn create --name `${function_name}` --runtime nodejs-18 --build-source .
-    For Python
-        1. ibmcloud ce fn create --name `${function_name}` --runtime python-3.11 --build-source .
+1. For nodejs 
+    1. ibmcloud ce fn create --name `${function_name}` --runtime nodejs-18 --build-source .
+2. For Python
+    1. ibmcloud ce fn create --name `${function_name}` --runtime python-3.11 --build-source .
 
 
 Step6: To update the same function
-    For nodejs
-        1. ibmcloud ce fn update --name `${function_name}` --runtime nodejs-18 --build-source .
-    For Python
-        1. ibmcloud ce fn update --name `${function_name}` --runtime python-3.11 --build-source .
+1. For nodejs
+    1. ibmcloud ce fn update --name `${function_name}` --runtime nodejs-18 --build-source .
+2. For Python
+    1. ibmcloud ce fn update --name `${function_name}` --runtime python-3.11 --build-source .
 
