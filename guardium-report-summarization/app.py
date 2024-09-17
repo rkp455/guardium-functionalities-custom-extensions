@@ -265,14 +265,3 @@ def main(params):
     except Exception as e:
         print('e', e)
         print(f"Failed to execute the API {str(e)}")
-
-
-# if __name__ == "__main__":
-#     main({
-#        'reportName': 'Failed Login Attempts',
-#        'startDate': '2024-06-01',
-#        'endDate': '2024-06-30',
-#        'userEmail': 'honey.gidwani@ibm.com',
-#        'username': 'admin',
-#        'password': 'Guardium@1'
-#     })
