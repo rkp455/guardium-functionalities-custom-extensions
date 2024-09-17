@@ -57,9 +57,7 @@ This repo contains two main folder.
 
 ![img](./static/9.png) 
 
-    15. Repeat steps 1 through 12 for the second custom extension.
-
-![img](./static/10.png) 
+    15. Repeat steps 1 through 14 for the second custom extension.
 
 ## Importing Action Steps in Watsonx Assistant
     1. Go to the Action section within Watsonx Assistant.
